@@ -1,0 +1,165 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+*{
+    font-family : 'Dancing Script', cursive ;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    padding-left: 2%;
+}
+#topnav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-self: center;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+nav a:visited{
+    color: black;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{
+    width: 20%;
+}
+
+#profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#nws{
+    width: 130px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#projets{
+    margin: auto;
+}
+
+td{
+    vertical-align: top;
+}
+
+#flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    vertical-align: top;
+}
+
+.projet1{
+    position: relative;
+}
+/*
+.projet1 div{
+    visibility: ;    
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: white;
+    background-color: black ;
+    width: 350px;
+    height: 390px;
+}
+#projets p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.projet1:hover div{
+    visibility: visible;
+}
+*/
+
+#flex2{
+    display: flex;
+    flex-direction: column;
+}
+
+#projets img{
+    width: 450px;
+    color: white;
+    margin: 5px;
+}
+
+section h2{
+    margin: 20px;
+}
+
+#competences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#competences div{
+    width: 280px;
+    background-color: #404040;
+    text-align: justify;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+#fleche{
+    color:black
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 1em;
+    margin-left: 5%;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    color: black;
+}
+
+footer a{
+    color: black;
+}
+
+@media all and (max-width:1024px)
+{
+    body
+    {
+        width: auto;
+    }
+    #projets img{
+        width: 350px;
+    }
+    #competences div{
+        width:250px;
+    }
+}
